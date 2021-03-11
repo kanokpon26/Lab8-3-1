@@ -17,6 +17,9 @@ class Hanoi(object):
     def move_disk(self, start, destination):
         disk = start.popdisk()
         destination.pushdisk(disk)
+        self.startp.showpole()
+        self.workspacep.showpole()
+        self.destinationp.showpole()
 
     def move_tower(self, n, s, d, w):
         if n == 1:

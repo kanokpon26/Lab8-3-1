@@ -37,4 +37,5 @@ class Pole:
     def popdisk(self):
         disk = self.stack.pop(len(self.stack) - 1)
         disk.newpos(self.x, self.length + 50)
+        self.showpole()
         return disk
