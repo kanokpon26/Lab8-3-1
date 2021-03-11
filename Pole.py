@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from turtle import *
 
 class Pole:
@@ -39,5 +38,3 @@ class Pole:
         disk = self.stack.pop(len(self.stack) - 1)
         disk.newpos(self.x, self.length + 50)
         return disk
-=======
->>>>>>> parent of f0ef88a (Update file Pole.py)
