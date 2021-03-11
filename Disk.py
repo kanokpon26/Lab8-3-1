@@ -1,6 +1,5 @@
 from turtle import *
 
-
 class Disk():
     def __init__(self, name, x, y, height, width):
         self.name = name
@@ -24,7 +23,6 @@ class Disk():
         fd(self.height)
         lt(90)
         fd(self.width / 2)
-        end_fill()
 
     def newpos(self, x, y):
         self.cleardisk()
@@ -48,4 +46,3 @@ class Disk():
         fd(self.height)
         lt(90)
         fd(self.width / 2)
-        end_fill()

@@ -4,9 +4,9 @@ from Pole import Pole
 
 class Hanoi(object):
     def __init__(self, n=3, start="A", workspace="B", destination="C"):
-        self.startp = Pole(start, 0, 0)
-        self.workspacep = Pole(workspace, 150, 0)
-        self.destinationp = Pole(destination, 300, 0)
+        self.startp = Pole(start, -200, 0)
+        self.workspacep = Pole(workspace, -50, 0)
+        self.destinationp = Pole(destination, 100, 0)
         self.startp.showpole()
         self.workspacep.showpole()
         self.destinationp.showpole()
