@@ -23,7 +23,6 @@ class Disk():
         fd(self.height)
         lt(90)
         fd(self.width / 2)
-        end_fill()
 
     def newpos(self, x, y):
         self.cleardisk()
@@ -47,4 +46,3 @@ class Disk():
         fd(self.height)
         lt(90)
         fd(self.width / 2)
-        end_fill()
